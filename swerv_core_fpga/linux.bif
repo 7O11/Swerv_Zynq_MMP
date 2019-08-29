@@ -1,0 +1,8 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]/home/lqa/Documents/swerv/swerv_core_fpga/fsbl.elf
+	/home/lqa/Documents/swerv/swerv_core_fpga/swerv_core_fpga.sdk/top_bd_wrapper_hw_platform_0/top_bd_wrapper.bit
+	/home/lqa/Documents/swerv/swerv_core_fpga/u-boot.elf
+	[offset = 0x1200000]/home/lqa/Documents/swerv/swerv_core_fpga/image_fallback.ub
+}

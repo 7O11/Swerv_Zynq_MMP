@@ -1,0 +1,58 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 3 -x 820 -y 320 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 3 -x 820 -y 340 -defaultsOSRD
+preplace port linear_flash -pg 1 -lvl 3 -x 820 -y 590 -defaultsOSRD
+preplace port jtag_nrst_0 -pg 1 -lvl 0 -x -10 -y 200 -defaultsOSRD
+preplace port jtag_tck_0 -pg 1 -lvl 0 -x -10 -y 120 -defaultsOSRD
+preplace port jtag_tdi_0 -pg 1 -lvl 0 -x -10 -y 160 -defaultsOSRD
+preplace port jtag_tdo_0 -pg 1 -lvl 3 -x 820 -y 190 -defaultsOSRD
+preplace port jtag_tms_0 -pg 1 -lvl 0 -x -10 -y 140 -defaultsOSRD
+preplace port jtag_trst_n_0 -pg 1 -lvl 0 -x -10 -y 180 -defaultsOSRD
+preplace port led_0_0 -pg 1 -lvl 3 -x 820 -y 70 -defaultsOSRD
+preplace port led_1_0 -pg 1 -lvl 3 -x 820 -y 90 -defaultsOSRD
+preplace port led_2_0 -pg 1 -lvl 3 -x 820 -y 110 -defaultsOSRD
+preplace port led_3_0 -pg 1 -lvl 3 -x 820 -y 130 -defaultsOSRD
+preplace port led_4_0 -pg 1 -lvl 3 -x 820 -y 150 -defaultsOSRD
+preplace port uart_rxd_0 -pg 1 -lvl 0 -x -10 -y 100 -defaultsOSRD
+preplace port uart_txd_0 -pg 1 -lvl 3 -x 820 -y 170 -defaultsOSRD
+preplace port reset -pg 1 -lvl 0 -x -10 -y 720 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 2 -x 600 -y 380 -defaultsOSRD
+preplace inst axi_emc_0 -pg 1 -lvl 2 -x 600 -y 590 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 1 -x 200 -y 560 -defaultsOSRD
+preplace inst swerv_eh1_reference_0 -pg 1 -lvl 2 -x 600 -y 130 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -x 200 -y 740 -defaultsOSRD
+preplace netloc jtag_nrst_0_1 1 0 2 NJ 200 NJ
+preplace netloc jtag_tck_0_1 1 0 2 NJ 120 NJ
+preplace netloc jtag_tdi_0_1 1 0 2 NJ 160 NJ
+preplace netloc swerv_eh1_reference_0_jtag_tdo 1 2 1 NJ 190
+preplace netloc jtag_tms_0_1 1 0 2 NJ 140 NJ
+preplace netloc jtag_trst_n_0_1 1 0 2 NJ 180 NJ
+preplace netloc swerv_eh1_reference_0_led_0 1 2 1 NJ 70
+preplace netloc swerv_eh1_reference_0_led_1 1 2 1 NJ 90
+preplace netloc swerv_eh1_reference_0_led_2 1 2 1 NJ 110
+preplace netloc swerv_eh1_reference_0_led_3 1 2 1 NJ 130
+preplace netloc swerv_eh1_reference_0_led_4 1 2 1 NJ 150
+preplace netloc uart_rxd_0_1 1 0 2 NJ 100 NJ
+preplace netloc swerv_eh1_reference_0_uart_txd 1 2 1 NJ 170
+preplace netloc reset_1 1 0 1 NJ 720
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 20 480 390 500 800
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 1 1 400 600n
+preplace netloc proc_sys_reset_0_peripheral_reset 1 1 1 380 80n
+preplace netloc processing_system7_0_M_AXI_GP0 1 0 3 10 260 NJ 260 800
+preplace netloc axi_smc_M00_AXI 1 1 1 N 560
+preplace netloc processing_system7_0_FIXED_IO 1 2 1 NJ 340
+preplace netloc processing_system7_0_DDR 1 2 1 NJ 320
+preplace netloc axi_emc_0_EMC_INTF 1 2 1 NJ 590
+levelinfo -pg 1 -10 200 600 820
+pagesize -pg 1 -db -bbox -sgen -160 0 960 840
+"
+}
+{
+   "da_axi4_cnt":"1",
+   "da_board_cnt":"1",
+   "da_clkrst_cnt":"12",
+   "da_ps7_cnt":"1"
+}

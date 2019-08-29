@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="top_bd_swerv_eh1_reference_0_3_synth_1" LaunchDir="/home/lqa/Documents/swerv/swerv_core_fpga/swerv_core_fpga.runs/top_bd_swerv_eh1_reference_0_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

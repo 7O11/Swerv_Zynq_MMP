@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Aug 26 22:14:52 2019
+# Process ID: 31103
+# Current directory: /home/lqa/Documents/swerv/swerv_core_fpga/swerv_core_fpga.runs/impl_1
+# Command line: vivado -log top_bd_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_bd_wrapper.tcl -notrace
+# Log file: /home/lqa/Documents/swerv/swerv_core_fpga/swerv_core_fpga.runs/impl_1/top_bd_wrapper.vdi
+# Journal file: /home/lqa/Documents/swerv/swerv_core_fpga/swerv_core_fpga.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source top_bd_wrapper.tcl -notrace
